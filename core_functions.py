@@ -316,7 +316,7 @@ class core_functions(Ui_MainWindow):
         btf.clear()
         btf.auto_size = MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT
         bp = btf.paragraphs[0]
-        bp.level = 1
+        #bp.level = 1
         brun = bp.add_run()
         self.copyFontStyle(brun, textObject)
         if not isAnnouncement:
